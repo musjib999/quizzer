@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:quizzer/screens/library.dart';
 import 'package:quizzer/screens/login.dart';
 import 'package:quizzer/screens/profile.dart';
 
@@ -74,7 +76,7 @@ class DrawerItems extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(
-                      Icons.library_books,
+                      FontAwesomeIcons.book,
                       color: Colors.white,
                     ),
                     title: Text(
@@ -85,11 +87,12 @@ class DrawerItems extends StatelessWidget {
                     onTap: () {
                       // Update the state of the app.
                       // ...
+                      Navigator.pushNamed(context, Library.id);
                     },
                   ),
                   ListTile(
                     leading: Icon(
-                      Icons.calculate,
+                      FontAwesomeIcons.questionCircle,
                       color: Colors.white,
                     ),
                     title: Text(
