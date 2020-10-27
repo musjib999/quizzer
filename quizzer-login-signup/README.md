@@ -2,12 +2,12 @@
 
 ### :lexinton: Found this project useful?
 
-
+If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
 
 ## Project Created & Maintained By
 
-#   lexington  technomlogy
-A  app to showcase Quizzer added login-signup app using flutter.
+###   lexington  technomlogy
+A  app to showcase Quizzer login-signup app using flutter.
 
 # Demo
 
