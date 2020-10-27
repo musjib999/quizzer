@@ -1,27 +1,16 @@
-# Flutter Login Signup
+# quizzer
 
-### :lexinton: Found this project useful?
-
-
-
-## Project Created & Maintained By
-
-#   lexington  technomlogy
-A  app to showcase Quizzer added login-signup app using flutter.
-
-# Demo
-
-
-# Android Screen
-
-
-# iOS Screen
-
+A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter quizzer application.
+This project is a starting point for a Flutter application.
 
-more resources to be added :
+A few resources to get you started if this is your first Flutter project:
 
-For help getting started with Flutter, visit lexington technology
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
