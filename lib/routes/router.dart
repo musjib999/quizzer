@@ -6,6 +6,7 @@ import 'package:quizzer/screens/topics.dart';
 import 'package:quizzer/screens/login.dart';
 import 'package:quizzer/screens/profile.dart';
 import 'package:quizzer/screens/register.dart';
+import '../screens/video_play.dart';
 
 Map<String, WidgetBuilder> routes = {
   Dashboard.id: (context) => Dashboard(),
@@ -14,5 +15,6 @@ Map<String, WidgetBuilder> routes = {
   Profile.id: (context) => Profile(),
   Topic.id: (context) => Topic(),
   Quiz.id: (context) => Quiz(),
-  Library.id: (context) => Library()
+  Library.id: (context) => Library(),
+  VideoPlay.id: (contexr) => VideoPlay()
 };
