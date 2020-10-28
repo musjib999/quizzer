@@ -11,7 +11,7 @@ class CourseCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 95,
+      // height: 95,
       padding: EdgeInsets.all(15),
       margin: margin,
       decoration: BoxDecoration(

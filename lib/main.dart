@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizzer/routes/route_observer.dart';
+// import 'package:quizzer/routes/route_observer.dart';
 import 'package:quizzer/routes/router.dart';
 import 'package:quizzer/screens/login.dart';
 
@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
         accentColor: Color(0xffeb4d4d),
         primaryColorDark: Color(0xff2c3e50),
       ),
-      navigatorObservers: [AppNavigatorObserver()],
+      // navigatorObservers: [
+      //   AppNavigatorObserver(),
+      // ],
       initialRoute: Login.id,
       routes: routes,
     );

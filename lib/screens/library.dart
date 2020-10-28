@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'video_play.dart';
+
 class Library extends StatefulWidget {
   static String id = '/library';
   @override
@@ -56,6 +58,9 @@ class _LibraryState extends State<Library> {
               courseAuthor: 'Mubarak na Mairo',
               courseDate: '11-02-2020',
               courseDuration: '2hrs',
+              onTap: () {
+                Navigator.of(context).pushNamed(VideoPlay.id);
+              },
             ),
             LibraryCouresCard(
               courseImage: 'images/cbs.jpg',
